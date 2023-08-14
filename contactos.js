@@ -3,11 +3,11 @@ let listaDeContactos = [
     "Jorge Fonseca",
     "Andrea Ortega"
 ];
-console.log(listaDeContactos)
+
 
 function agregarContacto (listaDeContactos){
     listaDeContactos.push ("Alicia Espinal")
-};
+    };
 
 function borrarContacto (listaDeContactos){
     const indice = listaDeContactos.indexOf(listaDeContactos);
